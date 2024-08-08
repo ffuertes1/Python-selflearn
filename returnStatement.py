@@ -18,6 +18,8 @@ def getAnswer(answerNumber):
         return 'Outlook not so good'
     elif answerNumber == 9:
      return 'Very doubtful'
+#this last 3 lines can be shorten as: print(getAnswer(random.randit(1,9)))
+
 r = random.randint(1, 9)
 fortune = getAnswer(r)
 print(fortune)
